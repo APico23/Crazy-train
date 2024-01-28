@@ -36,6 +36,16 @@ public class SnakeManager : MonoBehaviour
         {
             snakebody[0].transform.Rotate(new Vector3(0,0,-turnSpeed*Time.deltaTime * Input.GetAxis("Horizontal")));
         }
+        if(snakebody.Count > 1)
+        {
+            for(int i = 1; i < snakebody.Count; i++)
+            {
+                markerManager markM = snakebody[i-1].GetComponent<markerManager>();
+                snakebody[i].transform.position= markM.markerList[0].position;
+                snakebody[i].transform.rotation = markM.markerList[0].rotation;
+                markM.markerList.RemoveAt(0);
+            }
+        }
     }
     void makeSegment()
     {
