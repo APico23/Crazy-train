@@ -22,11 +22,26 @@ public class SnakeManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(segments.Count > 0) 
+        manageSnakeBody();
+        snakeMovement(); 
+    }
+
+    void manageSnakeBody()
+    {
+        if (segments.Count > 0)
         {
             makeSegment();
         }
-        snakeMovement(); 
+        for (int i = 0; i < snakebody.Count; i++)
+        {
+            if (snakebody[i] == null)
+            {
+                snakebody.RemoveAt(i);
+                i = i - 1;
+            }
+            if (snakebody.Count == 0)
+                Destroy(this);
+        }
     }
     void snakeMovement()
     {
@@ -83,5 +98,9 @@ public class SnakeManager : MonoBehaviour
         tmp.GetComponent<markerManager>().clearMarkers();
             count = 0;
         }
+    }
+    public void addSegment(GameObject obj)
+    {
+        segments.Add(obj);
     }
 }
