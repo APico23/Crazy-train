@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0.2
-  speed: 500
+  speed: 180
   turnSpeed: 250
   segments:
   - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}

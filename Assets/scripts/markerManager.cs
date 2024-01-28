@@ -24,11 +24,11 @@ public class markerManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        updateMarkerList();
     }
-    public void OnDisconnectedFromMasterServer()
+    public void updateMarkerList()
     {
         markerList.Add(new Marker(transform.position, transform.rotation));
     }
