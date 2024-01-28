@@ -10,11 +10,11 @@ public class SnakeManager : MonoBehaviour
     [SerializeField] float speed = 100;
     [SerializeField] float turnSpeed = 100;
     [SerializeField] List<GameObject> segments= new List<GameObject>();
-    List<GameObject> snakebody = new List<GameObject>();
+    public List<GameObject> snakebody = new List<GameObject>();
     float count = 0;
 
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called before start
+    void Awake()
     {
         makeSegment();
     }
