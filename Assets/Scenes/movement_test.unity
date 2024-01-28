@@ -245,16 +245,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0c6282fc976c645923e5ea77f95f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0.2
+  distance: 0.4
   speed: 180
   turnSpeed: 250
   segments:
-  - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}
-  - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}
-  - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}
-  - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}
-  - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}
-  - {fileID: 3728688818092481494, guid: b359ad551bd99cf4a9cee66d3dd0098c, type: 3}
+  - {fileID: 2343147786215946555, guid: e9d12b8bc5a59534ca539feff2b02928, type: 3}
+  - {fileID: 2282288686461734214, guid: b0d023051e7ef4a47ad75a8eb59a6a94, type: 3}
+  - {fileID: 2731989303301702775, guid: 77bac4fdf8e2d774b9343da5a5dc75c5, type: 3}
+  - {fileID: 5963550174805660453, guid: 0067e68f21b82864ebb34c6f6c8b9af1, type: 3}
+  - {fileID: 1774771777846859620, guid: f4556c2162e3c564dba18f73e37dc736, type: 3}
+  - {fileID: 313133409387819411, guid: 1f42ced3d3bdba743a55be74fd8a5797, type: 3}
 --- !u!4 &1984014735
 Transform:
   m_ObjectHideFlags: 0
