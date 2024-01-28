@@ -10,9 +10,12 @@ public class enemyAI : MonoBehaviour
     public int enemyHealth;
     [SerializeField] int enemyMaxHealth;
     [SerializeField] int enemySpeed;
+    [SerializeField] int enemyDamage;
 
     //Player Target
     public GameObject target;
+    public playerHealth playerH;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,4 +35,16 @@ public class enemyAI : MonoBehaviour
         float maxDistance = Vector3.Distance(transform.position, target.transform.position);
         transform.position = transform.position + Vector3.ClampMagnitude(directionToMove, maxDistance);
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Train")
+        {
+            //Reduce Player Health
+            // if (collision.gameObject."name of script".isShielded)
+            playerH.health -= enemyDamage;
+            Destroy(gameObject);
+        }
+    }
+
 }

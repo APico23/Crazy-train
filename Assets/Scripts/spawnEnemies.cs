@@ -33,7 +33,7 @@ public class spawnEnemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // timer to spawn the next rock Object
+        // timer to spawn the next enemy Object
         countdown -= Time.deltaTime;
         if (countdown <= 0)
         {
@@ -60,6 +60,7 @@ public class spawnEnemies : MonoBehaviour
             GameObject newEnem = Instantiate(enemies[index], spawnPos, transform.rotation);
             enemyAI enemyAi = newEnem.GetComponent<enemyAI>();
             enemyAi.target = player[i];
+            enemyAi.playerH = snakeManager.gameObject.GetComponent<playerHealth>();
         }
         
     }

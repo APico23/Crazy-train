@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7637931664038376597}
   - component: {fileID: 6826695956292722236}
   - component: {fileID: 1878785246153753969}
+  - component: {fileID: 4069606210040864636}
   m_Layer: 0
   m_Name: TrainManager
   m_TagString: Untagged
@@ -55,6 +56,7 @@ MonoBehaviour:
   - {fileID: 5963550174805660453, guid: 0067e68f21b82864ebb34c6f6c8b9af1, type: 3}
   - {fileID: 1774771777846859620, guid: f4556c2162e3c564dba18f73e37dc736, type: 3}
   - {fileID: 313133409387819411, guid: 1f42ced3d3bdba743a55be74fd8a5797, type: 3}
+  snakebody: []
 --- !u!114 &1878785246153753969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,3 +75,15 @@ MonoBehaviour:
   pie: {fileID: 1774771777846859620, guid: f4556c2162e3c564dba18f73e37dc736, type: 3}
   gaping: {fileID: 2731989303301702775, guid: 77bac4fdf8e2d774b9343da5a5dc75c5, type: 3}
   juggle: {fileID: 5963550174805660453, guid: 0067e68f21b82864ebb34c6f6c8b9af1, type: 3}
+--- !u!114 &4069606210040864636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4765721346708529471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607474dc2681c284b878297a78e11bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
