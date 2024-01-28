@@ -99,5 +99,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 0
   enemyMaxHealth: 0
-  enemySpeed: 2
+  enemySpeed: 5
   target: {fileID: 0}
