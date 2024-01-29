@@ -5,6 +5,8 @@ using UnityEngine;
 public class limitSadRange : MonoBehaviour
 {
 
+    [SerializeField] int damage;
+
     private float maxDistance = 5;
     private Vector3 startSpot;
 
@@ -33,6 +35,7 @@ public class limitSadRange : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
+            collision.GetComponent<enemyAI>().enemyHealth -= damage;
             Destroy(gameObject);
         }
     }
