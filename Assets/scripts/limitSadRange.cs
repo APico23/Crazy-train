@@ -28,4 +28,12 @@ public class limitSadRange : MonoBehaviour
         float why = Mathf.Abs(start.y - current.y);
         return Mathf.Sqrt(Mathf.Pow(ex, 2) + Mathf.Pow(why, 2));
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

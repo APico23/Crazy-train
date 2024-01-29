@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class throwPies : MonoBehaviour
 {
-    [SerializeField] GameObject pie;
+    [SerializeField] findEnemy rangeCheck;
+    [SerializeField] float spawnWait;
+    private float countdown = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -16,9 +18,11 @@ public class throwPies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        countdown -= Time.deltaTime;
+        if (countdown <= 0)
         {
-            Instantiate(pie, transform.position, transform.rotation);
+            rangeCheck.isSearching = true;
+            countdown = spawnWait;
         }
     }
 }

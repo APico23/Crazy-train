@@ -7,6 +7,8 @@ public class sadderDay : MonoBehaviour
 {
 
     [SerializeField] GameObject tear;
+    [SerializeField] float spawnWait;
+    private float countdown = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +19,11 @@ public class sadderDay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        countdown -= Time.deltaTime;
+        if (countdown <= 0)
         {
             Instantiate(tear, transform.position, transform.rotation);
+            countdown = spawnWait;
         }
     }
 }

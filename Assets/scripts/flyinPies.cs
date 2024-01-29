@@ -21,16 +21,17 @@ public class flyinPies : MonoBehaviour
     void Update()
     {
         transform.position += direction * speed;
-        if(getDistance(startSpot, transform.position) >= maxDistance)
+        if(Vector3.Distance(startSpot, transform.position) >= maxDistance)
         {
             Destroy(gameObject);
         }
     }
 
-    float getDistance(Vector3 start, Vector3 current)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        float ex = Mathf.Abs(start.x - current.x);
-        float why = Mathf.Abs(start.y - current.y);
-        return Mathf.Sqrt(Mathf.Pow(ex,2) + Mathf.Pow(why,2));
+        if(collision.gameObject.tag == "Enemy")
+        {
+            Destroy(gameObject);
+        }
     }
 }
