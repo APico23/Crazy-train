@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000785438224109796}
   - component: {fileID: 7208286830660148968}
+  - component: {fileID: 4861208523953322211}
   m_Layer: 0
   m_Name: Enemy Spawner
   m_TagString: Untagged
@@ -44,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 133126b802c80d240afd64e300dc301c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snakeManager: {fileID: 0}
   enemies:
   - {fileID: 5758777483885383077, guid: 2f1e3f98aa1524440bc2af9145a1946c, type: 3}
   - {fileID: 37027645936094351, guid: b146089db5b941d4ca9bf0a3cbc3816c, type: 3}
@@ -52,6 +54,27 @@ MonoBehaviour:
   - {fileID: 5761950200324784779, guid: 3825d1a763eb305438f0dd424573ba54, type: 3}
   - {fileID: 7000567202681498686, guid: 0b86176aa00344e499b62fb4b57ae016, type: 3}
   - {fileID: 5795251617288111828, guid: adcc96d5ae2451840b6235ba41500b87, type: 3}
-  player: {fileID: 0}
-  spawn_wait: 0.2
-  spawnRadius: 3
+  player:
+  - {fileID: 0}
+  spawn_wait: 1
+  spawnRadius: 5
+--- !u!114 &4861208523953322211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4583842751160006512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f5f288b2aa8e464ba72affd004684e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossList:
+  - {fileID: 5758777483885383077, guid: 989c601c816fdb7498206a24331c870a, type: 3}
+  - {fileID: 37027645936094351, guid: 75b0d819cfb27e04eaab40eb5bb00966, type: 3}
+  - {fileID: 5761950200324784779, guid: 4a8daf3d6184d51448b7e73bbc27a024, type: 3}
+  - {fileID: 7000567202681498686, guid: f307b7c79e3d6f24d887684c894444f8, type: 3}
+  - {fileID: 5795251617288111828, guid: 2555bf40420d3814b983c2e39d946676, type: 3}
+  - {fileID: 6176532672384303588, guid: cae336ddac7c5824996adbbe0ddd8005, type: 3}
+  - {fileID: 6933050638577131965, guid: 21288b1ed3c301046aedbaa4c6261243, type: 3}

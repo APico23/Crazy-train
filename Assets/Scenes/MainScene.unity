@@ -309,14 +309,6 @@ PrefabInstance:
       value: Enemy Spawner
       objectReference: {fileID: 0}
     - target: {fileID: 7208286830660148968, guid: 4df566dc08b00e54f842a6bc0bcc0775, type: 3}
-      propertyPath: spawn_wait
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7208286830660148968, guid: 4df566dc08b00e54f842a6bc0bcc0775, type: 3}
-      propertyPath: spawnRadius
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7208286830660148968, guid: 4df566dc08b00e54f842a6bc0bcc0775, type: 3}
       propertyPath: snakeManager
       value: 
       objectReference: {fileID: 69611863}
@@ -387,7 +379,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 20
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -432,7 +424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snakeManager: {fileID: 69611863}
   smoothing: 2
-  initialCameraSize: 5.8
+  initialCameraSize: 9.8
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

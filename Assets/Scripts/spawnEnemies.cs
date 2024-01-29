@@ -65,4 +65,20 @@ public class spawnEnemies : MonoBehaviour
         
     }
 
+    public void bossSpawn(GameObject boss)
+    {
+        float tmpRadius = (2*spawnRadius) + (1.5f * player.Count);
+
+        float angle = Random.value * Mathf.PI * 2;
+        float x = Mathf.Cos(angle) * tmpRadius;
+        float y = Mathf.Sin(angle) * tmpRadius;
+        Vector2 spawnPos = new Vector2(player[0].transform.position.x + x, player[0].transform.position.y + y);
+        int index = Random.Range(0, enemies.Count);
+
+        GameObject newEnem = Instantiate(boss, spawnPos, transform.rotation);
+        enemyAI enemyAi = newEnem.GetComponent<enemyAI>();
+        enemyAi.target = player[0];
+        enemyAi.playerH = snakeManager.gameObject.GetComponent<playerHealth>();
+    }
+
 }
