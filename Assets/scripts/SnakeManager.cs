@@ -77,8 +77,9 @@ public class SnakeManager : MonoBehaviour
             snakebody.Add(tmp1);
             segments.RemoveAt(0);
         }
+
         markerManager markM = snakebody[snakebody.Count-1].GetComponent<markerManager>();
-        if(count ==0)
+        if(count == 0)
         {
             markM.clearMarkers();
         }
@@ -96,7 +97,7 @@ public class SnakeManager : MonoBehaviour
         snakebody.Add(tmp);
         segments.RemoveAt(0);
         tmp.GetComponent<markerManager>().clearMarkers();
-            count = 0;
+        count = 0;
         }
     }
     public void addSegment(GameObject obj)
