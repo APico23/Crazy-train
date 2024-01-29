@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4685503875424580434}
   - component: {fileID: 1374105159457160218}
   - component: {fileID: 3942610860082683136}
+  - component: {fileID: -5308856582299767082}
   m_Layer: 0
   m_Name: boss1
   m_TagString: Enemy
@@ -100,9 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 0
-  enemyMaxHealth: 30
-  enemySpeed: 5
-  enemyDamage: 2
+  enemyMaxHealth: 60
+  enemySpeed: 2
+  enemyDamage: 4
   target: {fileID: 0}
   playerH: {fileID: 0}
 --- !u!50 &1374105159457160218
@@ -167,3 +168,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0030966476, y: 0.00309667}
   m_Size: {x: 0.22504891, y: 0.6461933}
   m_Direction: 0
+--- !u!114 &-5308856582299767082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758777483885383077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d81ece2120cd549acab6b43d80f7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  tent: {fileID: 4597597472908761168, guid: c379fb0122135514aa188394550fcc75, type: 3}

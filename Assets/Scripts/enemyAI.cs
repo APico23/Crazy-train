@@ -9,7 +9,7 @@ public class enemyAI : MonoBehaviour
     //EnemyStats
     public int enemyHealth;
     [SerializeField] int enemyMaxHealth;
-    [SerializeField] int enemySpeed;
+    [SerializeField] float enemySpeed;
     [SerializeField] int enemyDamage;
 
     //Player Target
