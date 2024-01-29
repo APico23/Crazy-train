@@ -8,6 +8,8 @@ public class flyinPies : MonoBehaviour
     public Vector3 direction;
     public float speed;
 
+    [SerializeField] int damage;
+
     private float maxDistance = 5;
     private Vector3 startSpot;
 
@@ -31,6 +33,7 @@ public class flyinPies : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
+            collision.GetComponent<enemyAI>().enemyHealth -= damage;
             Destroy(gameObject);
         }
     }

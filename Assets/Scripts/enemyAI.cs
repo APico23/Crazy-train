@@ -55,7 +55,11 @@ public class enemyAI : MonoBehaviour
         {
             fear = true;
         }
-        else
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Gaper")
         {
             fear = false;
         }
