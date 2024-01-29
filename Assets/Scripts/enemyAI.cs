@@ -16,6 +16,9 @@ public class enemyAI : MonoBehaviour
     public GameObject target;
     public playerHealth playerH;
 
+    //Gape information
+    private bool fear = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +36,10 @@ public class enemyAI : MonoBehaviour
         
         //Now we add our direction to our current position. We are going to clamp the vector here to make sure we don't go past our target destination
         float maxDistance = Vector3.Distance(transform.position, target.transform.position);
-        transform.position = transform.position + Vector3.ClampMagnitude(directionToMove, maxDistance);
+        if (fear == false)
+        {
+            transform.position = transform.position + Vector3.ClampMagnitude(directionToMove, maxDistance);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -44,6 +50,14 @@ public class enemyAI : MonoBehaviour
             // if (collision.gameObject."name of script".isShielded)
             playerH.health -= enemyDamage;
             Destroy(gameObject);
+        }
+        if(collision.gameObject.tag == "Gaper")
+        {
+            fear = true;
+        }
+        else
+        {
+            fear = false;
         }
     }
 
