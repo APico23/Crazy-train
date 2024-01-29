@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5012922486127852110}
   - component: {fileID: 5719988742022994338}
   - component: {fileID: 6148739213827008982}
+  - component: {fileID: 1762486970523297515}
+  - component: {fileID: -6897730201998752611}
   m_Layer: 0
   m_Name: SadTrain
   m_TagString: Train
@@ -130,3 +132,44 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.4}
   m_EdgeRadius: 0
+--- !u!50 &1762486970523297515
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313133409387819411}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-6897730201998752611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313133409387819411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d642c26ee3391b4b9428db25416c8bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tear: {fileID: 2330985302449438501, guid: 48dd2bacb91750444818f87cc4293cbc, type: 3}
+  spawnWait: 5
