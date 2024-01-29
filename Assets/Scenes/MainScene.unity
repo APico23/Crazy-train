@@ -146,6 +146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.6180286
@@ -475,6 +479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.903534
@@ -532,6 +540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.91671
@@ -589,6 +601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: 75.1
@@ -824,6 +840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: -84.2
@@ -881,6 +901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.16339
@@ -1015,6 +1039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.7
@@ -1133,6 +1161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carnival Tent (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
     - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
       propertyPath: m_LocalPosition.x
       value: -77.45836
