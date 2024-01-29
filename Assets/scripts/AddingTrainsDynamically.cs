@@ -15,7 +15,7 @@ public class AddingTrainsDynamically : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        snakeM = GetComponent<SnakeManager>();
+  
     }
 
     // Update is called once per frame
@@ -45,6 +45,7 @@ public class AddingTrainsDynamically : MonoBehaviour
                 case 4:
                     snakeM.addSegment(juggle);
                     break;
+                
             }
             Destroy(gameObject);
 

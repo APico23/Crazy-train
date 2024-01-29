@@ -134,6 +134,128 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d0c6282fc976c645923e5ea77f95f6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &391756573
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4597597472908761168, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_Name
+      value: Carnival Tent (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c379fb0122135514aa188394550fcc75, type: 3}
+--- !u!1001 &413922973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4597597472908761168, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_Name
+      value: Carnival Tent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.373442
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.10026252
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c379fb0122135514aa188394550fcc75, type: 3}
 --- !u!1001 &563718059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -211,6 +333,14 @@ PrefabInstance:
       propertyPath: distance
       value: 0.45
       objectReference: {fileID: 0}
+    - target: {fileID: 6826695956292722236, guid: 56db2d303bbc3c742b56841e50ef6711, type: 3}
+      propertyPath: segments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6826695956292722236, guid: 56db2d303bbc3c742b56841e50ef6711, type: 3}
+      propertyPath: segments.Array.data[1]
+      value: 
+      objectReference: {fileID: 1774771777846859620, guid: f4556c2162e3c564dba18f73e37dc736, type: 3}
     - target: {fileID: 7637931664038376597, guid: 56db2d303bbc3c742b56841e50ef6711, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.8830004
@@ -256,6 +386,128 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56db2d303bbc3c742b56841e50ef6711, type: 3}
+--- !u!1001 &1511172304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4597597472908761168, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_Name
+      value: Carnival Tent (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c379fb0122135514aa188394550fcc75, type: 3}
+--- !u!1001 &1550390727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4597597472908761168, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_Name
+      value: Carnival Tent (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8254740465489958807, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: snakeM
+      value: 
+      objectReference: {fileID: 69611863}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9024559307860454295, guid: c379fb0122135514aa188394550fcc75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c379fb0122135514aa188394550fcc75, type: 3}
 --- !u!1001 &1553933463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -433,3 +685,7 @@ SceneRoots:
   - {fileID: 563718059}
   - {fileID: 1553933463}
   - {fileID: 784129398}
+  - {fileID: 413922973}
+  - {fileID: 1550390727}
+  - {fileID: 391756573}
+  - {fileID: 1511172304}
