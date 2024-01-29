@@ -24,6 +24,9 @@ public class spawnEnemies : MonoBehaviour
     [Space(3)]
     [SerializeField] float spawnRadius;
 
+    [Space(3)]
+    [SerializeField] GameObject cTent;
+
     private void Start()
     {
         player = snakeManager.snakebody;
@@ -79,6 +82,21 @@ public class spawnEnemies : MonoBehaviour
         enemyAI enemyAi = newEnem.GetComponent<enemyAI>();
         enemyAi.target = player[0];
         enemyAi.playerH = snakeManager.gameObject.GetComponent<playerHealth>();
+        bossStats bossStat = newEnem.GetComponent<bossStats>();
+        bossStat.enemy = this;
+    }
+
+    public void bossDeath(Transform pos, GameObject tent) 
+    {
+        float tmpRadius = spawnRadius + (1.5f * player.Count);
+
+        float angle = Random.value * Mathf.PI * 2;
+        float x = Mathf.Cos(angle) * tmpRadius;
+        float y = Mathf.Sin(angle) * tmpRadius;
+        Vector2 spawnPos = new Vector2(pos.position.x + x, pos.position.y + y);
+
+        GameObject newTent = Instantiate(tent, spawnPos, transform.rotation);
+        newTent.GetComponent<AddingTrainsDynamically>().snakeM = snakeManager;
     }
 
 }

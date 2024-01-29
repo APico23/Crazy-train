@@ -26,7 +26,7 @@ public class bossManager : MonoBehaviour
 
     void bossSpawnCheck()
     {
-        if (timeElapsed >= 300)
+        if (timeElapsed >= 300 && bossIndex < 7)
         {
             gameObject.GetComponent<spawnEnemies>().bossSpawn(bossList[bossIndex]);
             bossIndex++;

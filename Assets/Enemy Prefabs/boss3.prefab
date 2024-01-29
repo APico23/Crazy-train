@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8682025321081936319}
   - component: {fileID: 1978936333691179982}
   - component: {fileID: 2205236176500472033}
+  - component: {fileID: 3336634809214067864}
   m_Layer: 0
   m_Name: boss3
   m_TagString: Enemy
@@ -167,3 +168,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3336634809214067864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761950200324784779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d81ece2120cd549acab6b43d80f7ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  tent: {fileID: 4597597472908761168, guid: c379fb0122135514aa188394550fcc75, type: 3}
