@@ -10,7 +10,8 @@ public class AddingTrainsDynamically : MonoBehaviour
     [SerializeField] GameObject pie;
     [SerializeField] GameObject gaping;
     [SerializeField] GameObject juggle;
-    SnakeManager snakeM;
+    public SnakeManager snakeM;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,33 @@ public class AddingTrainsDynamically : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Train")
+        {
+            int rand = Random.Range(0, 4);
+            switch (rand)
+            {
+                case 0:
+                    snakeM.addSegment(fish); 
+                    break;
+                case 1:
+                    snakeM.addSegment(sad);
+                    break;
+                case 2:
+                    snakeM.addSegment(pie);
+                    break;
+                case 3: 
+                    snakeM.addSegment(gaping);
+                    break;
+                case 4:
+                    snakeM.addSegment(juggle);
+                    break;
+            }
+            Destroy(gameObject);
+
+        }
     }
 }
