@@ -16,7 +16,7 @@ public class Rotate : MonoBehaviour
     void Update()
     {
         transform.Rotate(0,.2f,0);
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             SceneManager.LoadScene("MainScene");
         }
