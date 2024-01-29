@@ -489,6 +489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115793018}
   - component: {fileID: 1115793017}
+  - component: {fileID: 1115793019}
   m_Layer: 0
   m_Name: download
   m_TagString: Untagged
@@ -563,6 +564,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1115793019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115793016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e7822db3a1936439f2157a59765246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0, b: 1, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 1, b: 0, a: 1}
+  sr: {fileID: 1115793017}
 --- !u!1 &1427215323
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snakeManager: {fileID: 69611863}
   smoothing: 2
-  initialCameraSize: 9.8
+  initialCameraSize: 6.8
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
