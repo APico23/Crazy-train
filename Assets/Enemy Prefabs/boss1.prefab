@@ -101,9 +101,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 0
-  enemyMaxHealth: 30
-  enemySpeed: 5
-  enemyDamage: 2
+  enemyMaxHealth: 60
+  enemySpeed: 2
+  enemyDamage: 4
   target: {fileID: 0}
   playerH: {fileID: 0}
 --- !u!50 &1374105159457160218
