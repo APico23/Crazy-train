@@ -34,7 +34,6 @@ public class flyinPies : MonoBehaviour
         if(collision.gameObject.tag == "Enemy")
         {
             collision.GetComponent<enemyAI>().enemyHealth -= damage;
-            Destroy(gameObject);
         }
     }
 }

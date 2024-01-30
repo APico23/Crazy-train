@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rangeCheck: {fileID: 4315648246662326513}
-  spawnWait: 5
+  spawnWait: 0.25
 --- !u!1 &1957104442948311850
 GameObject:
   m_ObjectHideFlags: 0

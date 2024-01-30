@@ -172,4 +172,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tear: {fileID: 2330985302449438501, guid: 48dd2bacb91750444818f87cc4293cbc, type: 3}
-  spawnWait: 5
+  spawnWait: 0.25
