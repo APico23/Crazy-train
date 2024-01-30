@@ -5,7 +5,7 @@ using UnityEngine;
 public class bossStats : MonoBehaviour
 {
     public spawnEnemies enemy;
-    [SerializeField] GameObject tent;
+    [SerializeField] protected GameObject tent;
 
     private void OnDestroy()
     {

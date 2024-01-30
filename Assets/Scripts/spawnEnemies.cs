@@ -26,9 +26,10 @@ public class spawnEnemies : MonoBehaviour
 
     [Space(3)]
     [SerializeField] GameObject cTent;
-
+    int bossCount;
     private void Start()
     {
+        bossCount = 0;
         player = snakeManager.snakebody;
     }
 
@@ -88,6 +89,11 @@ public class spawnEnemies : MonoBehaviour
 
     public void bossDeath(Transform pos, GameObject tent) 
     {
+        bossCount++;
+        if (bossCount == 7)
+        {
+            //code to change the scene
+        }
         float tmpRadius = spawnRadius + (1.5f * player.Count);
 
         float angle = Random.value * Mathf.PI * 2;
