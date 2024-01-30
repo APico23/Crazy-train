@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class spinBalls : MonoBehaviour
 {
+
+    [SerializeField] float speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -11,8 +14,8 @@ public class spinBalls : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.Rotate(0,0,1);
+        transform.Rotate(0,0,Time.deltaTime*speed);
     }
 }

@@ -40,6 +40,11 @@ public class enemyAI : MonoBehaviour
         {
             transform.position = transform.position + Vector3.ClampMagnitude(directionToMove, maxDistance);
         }
+
+        if(enemyHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
