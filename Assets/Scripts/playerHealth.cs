@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerHealth : MonoBehaviour
 {
@@ -12,5 +13,11 @@ public class playerHealth : MonoBehaviour
     {
         health = maxHealth;
     }
-
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("Lose Screen");
+        }
+    }
 }
