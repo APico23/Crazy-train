@@ -268,4 +268,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stopGapeWait: 3
-  abilityWait: 0
+  abilityWait: 1

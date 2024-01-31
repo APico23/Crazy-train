@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class spawnEnemies : MonoBehaviour
 {
@@ -93,6 +94,7 @@ public class spawnEnemies : MonoBehaviour
         if (bossCount == 7)
         {
             //code to change the scene
+            SceneManager.LoadScene("Winner");
         }
         float tmpRadius = spawnRadius + (1.5f * player.Count);
 
