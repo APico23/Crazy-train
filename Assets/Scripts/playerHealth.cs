@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,7 +17,10 @@ public class playerHealth : MonoBehaviour
     }
     private void Update()
     {
-        bubble = gameObject.GetComponentInChildren<bubbleTimer>().isBubble;
+        if (gameObject.GetComponentInChildren<bubbleTimer>() != null )
+        {
+            bubble = gameObject.GetComponentInChildren<bubbleTimer>().isBubble;
+        }
         if (health <= 0)
         {
             SceneManager.LoadScene("Lose Screen");
