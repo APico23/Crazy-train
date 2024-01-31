@@ -52,8 +52,9 @@ public class enemyAI : MonoBehaviour
         if (collision.gameObject.tag == "Train")
         {
             //Reduce Player Health
-            // if (collision.gameObject."name of script".isShielded)
-            playerH.health -= enemyDamage;
+            if(playerH.bubble == false) {
+                playerH.health -= enemyDamage;
+            }
             Destroy(gameObject);
         }
         if(collision.gameObject.tag == "Gaper")

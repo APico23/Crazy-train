@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Train
   - Gaper
+  - Border
   layers:
   - Default
   - TransparentFX

@@ -27,7 +27,7 @@ public class AddingTrainsDynamically : MonoBehaviour
     {
         if (collision.gameObject.tag == "Train")
         {
-            int rand = Random.Range(0, 4);
+            int rand = Random.Range(0, 5);
             switch (rand)
             {
                 case 0:

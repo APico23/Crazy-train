@@ -9,7 +9,7 @@ public class bubbleTimer : MonoBehaviour
     [SerializeField] float abilityWait;
     [SerializeField] SpriteRenderer bubble;
     private float countdown = 0;
-    private bool isGuarding = false;
+    public bool isBubble;
 
     // Update is called once per frame
     void Update()
@@ -17,18 +17,19 @@ public class bubbleTimer : MonoBehaviour
         countdown -= Time.deltaTime;
         if(countdown <= 0)
         {
-            if (isGuarding)
+            if (isBubble)
             {
+
                 countdown = abilityWait;
                 bubble.enabled = false;
-                isGuarding= false;
+                isBubble = false;
                 gameObject.tag = "Train"; 
             }
             else
             {
                 countdown = stopShieldWait;
                 bubble.enabled = true;
-                isGuarding= true;
+                isBubble = true;
                 gameObject.tag = "Untagged";
             }
         }

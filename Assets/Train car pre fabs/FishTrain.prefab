@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2282288686461734214}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.804944, w: 0.5933509}
+  m_LocalPosition: {x: 31.67181, y: 28.836761, z: 0.036899365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -175,6 +175,7 @@ MonoBehaviour:
   stopShieldWait: 1
   abilityWait: 3
   bubble: {fileID: 7730985501181092865}
+  phealth: {fileID: 4069606210040864636, guid: 56db2d303bbc3c742b56841e50ef6711, type: 3}
 --- !u!1 &8530729201218582682
 GameObject:
   m_ObjectHideFlags: 0
